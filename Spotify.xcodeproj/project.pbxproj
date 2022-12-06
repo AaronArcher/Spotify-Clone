@@ -29,6 +29,7 @@
 		EEAE6CB8293FC7A300A9FB9C /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAE6CB7293FC7A300A9FB9C /* Song.swift */; };
 		EEAE6CBA293FC7A900A9FB9C /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAE6CB9293FC7A900A9FB9C /* Artist.swift */; };
 		EEAE6CBC293FC7C700A9FB9C /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAE6CBB293FC7C700A9FB9C /* UserProfile.swift */; };
+		EEAE6CBE293FE68E00A9FB9C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAE6CBD293FE68E00A9FB9C /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		EEAE6CB7293FC7A300A9FB9C /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
 		EEAE6CB9293FC7A900A9FB9C /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
 		EEAE6CBB293FC7C700A9FB9C /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		EEAE6CBD293FE68E00A9FB9C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,9 +149,10 @@
 		EEAE6C98293D000000A9FB9C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				EEAE6C88293CFF8500A9FB9C /* Assets.xcassets */,
 				EEAE6C7F293CFF8200A9FB9C /* AppDelegate.swift */,
 				EEAE6C81293CFF8200A9FB9C /* SceneDelegate.swift */,
-				EEAE6C88293CFF8500A9FB9C /* Assets.xcassets */,
+				EEAE6CBD293FE68E00A9FB9C /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 				EEAE6CA2293FC6F500A9FB9C /* AuthViewController.swift in Sources */,
 				EEAE6C80293CFF8200A9FB9C /* AppDelegate.swift in Sources */,
 				EEAE6CBC293FC7C700A9FB9C /* UserProfile.swift in Sources */,
+				EEAE6CBE293FE68E00A9FB9C /* Extensions.swift in Sources */,
 				EEAE6C9E293FC6C000A9FB9C /* LibraryViewController.swift in Sources */,
 				EEAE6CBA293FC7A900A9FB9C /* Artist.swift in Sources */,
 				EEAE6CAC293FC73C00A9FB9C /* PlaylistViewController.swift in Sources */,
