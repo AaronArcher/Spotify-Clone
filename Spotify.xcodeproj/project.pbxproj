@@ -30,6 +30,7 @@
 		EEAE6CBA293FC7A900A9FB9C /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAE6CB9293FC7A900A9FB9C /* Artist.swift */; };
 		EEAE6CBC293FC7C700A9FB9C /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAE6CBB293FC7C700A9FB9C /* UserProfile.swift */; };
 		EEAE6CBE293FE68E00A9FB9C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAE6CBD293FE68E00A9FB9C /* Extensions.swift */; };
+		EEAE6CC02941387B00A9FB9C /* AuthResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAE6CBF2941387B00A9FB9C /* AuthResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		EEAE6CB9293FC7A900A9FB9C /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
 		EEAE6CBB293FC7C700A9FB9C /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
 		EEAE6CBD293FE68E00A9FB9C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		EEAE6CBF2941387B00A9FB9C /* AuthResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 				EEAE6CB7293FC7A300A9FB9C /* Song.swift */,
 				EEAE6CB9293FC7A900A9FB9C /* Artist.swift */,
 				EEAE6CBB293FC7C700A9FB9C /* UserProfile.swift */,
+				EEAE6CBF2941387B00A9FB9C /* AuthResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 				EEAE6CA4293FC6FF00A9FB9C /* WelcomeViewController.swift in Sources */,
 				EEAE6CA8293FC71F00A9FB9C /* ProfileViewController.swift in Sources */,
 				EEAE6C9A293FC67700A9FB9C /* TabBarViewController.swift in Sources */,
+				EEAE6CC02941387B00A9FB9C /* AuthResponse.swift in Sources */,
 				EEAE6CB4293FC77D00A9FB9C /* HapticsManager.swift in Sources */,
 				EEAE6C84293CFF8200A9FB9C /* HomeViewController.swift in Sources */,
 				EEAE6CA2293FC6F500A9FB9C /* AuthViewController.swift in Sources */,
