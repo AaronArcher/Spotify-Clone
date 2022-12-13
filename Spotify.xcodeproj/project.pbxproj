@@ -33,6 +33,9 @@
 		EEAE6CBE293FE68E00A9FB9C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAE6CBD293FE68E00A9FB9C /* Extensions.swift */; };
 		EEAE6CC02941387B00A9FB9C /* AuthResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAE6CBF2941387B00A9FB9C /* AuthResponse.swift */; };
 		EEAE6CC22946312000A9FB9C /* SettingsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAE6CC12946312000A9FB9C /* SettingsModels.swift */; };
+		EEE87BC129465E6300AC6BFA /* NewReleasesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE87BC029465E6300AC6BFA /* NewReleasesResponse.swift */; };
+		EEE87BC329465FB300AC6BFA /* APIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE87BC229465FB300AC6BFA /* APIImage.swift */; };
+		EEE87BC52949270D00AC6BFA /* FeaturedPlaylistsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE87BC42949270D00AC6BFA /* FeaturedPlaylistsResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +69,9 @@
 		EEAE6CBD293FE68E00A9FB9C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		EEAE6CBF2941387B00A9FB9C /* AuthResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthResponse.swift; sourceTree = "<group>"; };
 		EEAE6CC12946312000A9FB9C /* SettingsModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsModels.swift; sourceTree = "<group>"; };
+		EEE87BC029465E6300AC6BFA /* NewReleasesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewReleasesResponse.swift; sourceTree = "<group>"; };
+		EEE87BC229465FB300AC6BFA /* APIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIImage.swift; sourceTree = "<group>"; };
+		EEE87BC42949270D00AC6BFA /* FeaturedPlaylistsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedPlaylistsResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +100,6 @@
 				8096EEEF1F70576707BA7468 /* Pods-Spotify.debug.xcconfig */,
 				08366EF9F211973D78E38E8F /* Pods-Spotify.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -154,8 +159,11 @@
 				EEAE6CB7293FC7A300A9FB9C /* Song.swift */,
 				EEAE6CB9293FC7A900A9FB9C /* Artist.swift */,
 				EEAE6CBB293FC7C700A9FB9C /* UserProfile.swift */,
+				EEE87BC229465FB300AC6BFA /* APIImage.swift */,
 				EEAE6CBF2941387B00A9FB9C /* AuthResponse.swift */,
 				EEAE6CC12946312000A9FB9C /* SettingsModels.swift */,
+				EEE87BC029465E6300AC6BFA /* NewReleasesResponse.swift */,
+				EEE87BC42949270D00AC6BFA /* FeaturedPlaylistsResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -331,11 +339,14 @@
 				EEAE6C9C293FC6A900A9FB9C /* SearchViewController.swift in Sources */,
 				EEAE6CB6293FC79400A9FB9C /* Playlist.swift in Sources */,
 				EEAE6CB0293FC76800A9FB9C /* AuthManager.swift in Sources */,
+				EEE87BC52949270D00AC6BFA /* FeaturedPlaylistsResponse.swift in Sources */,
 				EEAE6CAE293FC74800A9FB9C /* SearchResultsViewController.swift in Sources */,
 				EEAE6CA4293FC6FF00A9FB9C /* WelcomeViewController.swift in Sources */,
 				EEAE6CA8293FC71F00A9FB9C /* ProfileViewController.swift in Sources */,
 				EEAE6C9A293FC67700A9FB9C /* TabBarViewController.swift in Sources */,
 				EEAE6CC02941387B00A9FB9C /* AuthResponse.swift in Sources */,
+				EEE87BC129465E6300AC6BFA /* NewReleasesResponse.swift in Sources */,
+				EEE87BC329465FB300AC6BFA /* APIImage.swift in Sources */,
 				EEAE6CB4293FC77D00A9FB9C /* HapticsManager.swift in Sources */,
 				EEAE6C84293CFF8200A9FB9C /* HomeViewController.swift in Sources */,
 				EEAE6CA2293FC6F500A9FB9C /* AuthViewController.swift in Sources */,
