@@ -36,6 +36,7 @@
 		EEE87BC129465E6300AC6BFA /* NewReleasesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE87BC029465E6300AC6BFA /* NewReleasesResponse.swift */; };
 		EEE87BC329465FB300AC6BFA /* APIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE87BC229465FB300AC6BFA /* APIImage.swift */; };
 		EEE87BC52949270D00AC6BFA /* FeaturedPlaylistsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE87BC42949270D00AC6BFA /* FeaturedPlaylistsResponse.swift */; };
+		EEE87BC7294A63A500AC6BFA /* RecommendedGenresResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE87BC6294A63A500AC6BFA /* RecommendedGenresResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +73,7 @@
 		EEE87BC029465E6300AC6BFA /* NewReleasesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewReleasesResponse.swift; sourceTree = "<group>"; };
 		EEE87BC229465FB300AC6BFA /* APIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIImage.swift; sourceTree = "<group>"; };
 		EEE87BC42949270D00AC6BFA /* FeaturedPlaylistsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedPlaylistsResponse.swift; sourceTree = "<group>"; };
+		EEE87BC6294A63A500AC6BFA /* RecommendedGenresResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedGenresResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +166,7 @@
 				EEAE6CC12946312000A9FB9C /* SettingsModels.swift */,
 				EEE87BC029465E6300AC6BFA /* NewReleasesResponse.swift */,
 				EEE87BC42949270D00AC6BFA /* FeaturedPlaylistsResponse.swift */,
+				EEE87BC6294A63A500AC6BFA /* RecommendedGenresResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -361,6 +364,7 @@
 				EEAE6CAA293FC72700A9FB9C /* PlayerViewController.swift in Sources */,
 				EEAE6CB2293FC77200A9FB9C /* APICaller.swift in Sources */,
 				EEAE6CA6293FC70D00A9FB9C /* SettingsViewController.swift in Sources */,
+				EEE87BC7294A63A500AC6BFA /* RecommendedGenresResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
