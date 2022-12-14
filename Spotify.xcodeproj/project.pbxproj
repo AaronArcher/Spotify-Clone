@@ -42,6 +42,7 @@
 		EEE87BCE294A7BA100AC6BFA /* NewReleaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE87BCD294A7BA100AC6BFA /* NewReleaseCollectionViewCell.swift */; };
 		EEE87BD0294A7BC400AC6BFA /* FeaturedPlaylistCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE87BCF294A7BC400AC6BFA /* FeaturedPlaylistCollectionViewCell.swift */; };
 		EEE87BD2294A7BE600AC6BFA /* RecommendedTrackCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE87BD1294A7BE600AC6BFA /* RecommendedTrackCollectionViewCell.swift */; };
+		EEE87BD4294A805700AC6BFA /* NewReleasesCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE87BD3294A805700AC6BFA /* NewReleasesCellViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,6 +85,7 @@
 		EEE87BCD294A7BA100AC6BFA /* NewReleaseCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewReleaseCollectionViewCell.swift; sourceTree = "<group>"; };
 		EEE87BCF294A7BC400AC6BFA /* FeaturedPlaylistCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedPlaylistCollectionViewCell.swift; sourceTree = "<group>"; };
 		EEE87BD1294A7BE600AC6BFA /* RecommendedTrackCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedTrackCollectionViewCell.swift; sourceTree = "<group>"; };
+		EEE87BD3294A805700AC6BFA /* NewReleasesCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewReleasesCellViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +189,7 @@
 		EEAE6C96293CFFED00A9FB9C /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				EEE87BD3294A805700AC6BFA /* NewReleasesCellViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -361,6 +364,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEE87BD4294A805700AC6BFA /* NewReleasesCellViewModel.swift in Sources */,
 				EEAE6CB8293FC7A300A9FB9C /* AudioTrack.swift in Sources */,
 				EEE87BCE294A7BA100AC6BFA /* NewReleaseCollectionViewCell.swift in Sources */,
 				EEE87BD2294A7BE600AC6BFA /* RecommendedTrackCollectionViewCell.swift in Sources */,
