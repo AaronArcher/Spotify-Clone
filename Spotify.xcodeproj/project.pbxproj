@@ -45,6 +45,9 @@
 		EEE87BD4294A805700AC6BFA /* NewReleasesCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE87BD3294A805700AC6BFA /* NewReleasesCellViewModel.swift */; };
 		EEE87BD6294BC72B00AC6BFA /* FeaturedPlaylistCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE87BD5294BC72B00AC6BFA /* FeaturedPlaylistCellViewModel.swift */; };
 		EEE87BD8294BC76A00AC6BFA /* RecommendedTrackCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE87BD7294BC76A00AC6BFA /* RecommendedTrackCellViewModel.swift */; };
+		EEE87BDA294E16A900AC6BFA /* AlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE87BD9294E16A900AC6BFA /* AlbumViewController.swift */; };
+		EEE87BDC294E1E5800AC6BFA /* AlbumDetailsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE87BDB294E1E5800AC6BFA /* AlbumDetailsResponse.swift */; };
+		EEE87BDE294E225600AC6BFA /* PlaylistDetailsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE87BDD294E225600AC6BFA /* PlaylistDetailsResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -90,6 +93,9 @@
 		EEE87BD3294A805700AC6BFA /* NewReleasesCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewReleasesCellViewModel.swift; sourceTree = "<group>"; };
 		EEE87BD5294BC72B00AC6BFA /* FeaturedPlaylistCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedPlaylistCellViewModel.swift; sourceTree = "<group>"; };
 		EEE87BD7294BC76A00AC6BFA /* RecommendedTrackCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedTrackCellViewModel.swift; sourceTree = "<group>"; };
+		EEE87BD9294E16A900AC6BFA /* AlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewController.swift; sourceTree = "<group>"; };
+		EEE87BDB294E1E5800AC6BFA /* AlbumDetailsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailsResponse.swift; sourceTree = "<group>"; };
+		EEE87BDD294E225600AC6BFA /* PlaylistDetailsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistDetailsResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +192,8 @@
 				EEE87BC42949270D00AC6BFA /* FeaturedPlaylistsResponse.swift */,
 				EEE87BC6294A63A500AC6BFA /* RecommendedGenresResponse.swift */,
 				EEE87BC8294A672300AC6BFA /* RecommendationsResponse.swift */,
+				EEE87BDB294E1E5800AC6BFA /* AlbumDetailsResponse.swift */,
+				EEE87BDD294E225600AC6BFA /* PlaylistDetailsResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -240,8 +248,9 @@
 				EEAE6CA5293FC70D00A9FB9C /* SettingsViewController.swift */,
 				EEAE6CA7293FC71F00A9FB9C /* ProfileViewController.swift */,
 				EEAE6CA9293FC72700A9FB9C /* PlayerViewController.swift */,
-				EEAE6CAB293FC73C00A9FB9C /* PlaylistViewController.swift */,
 				EEAE6CAD293FC74800A9FB9C /* SearchResultsViewController.swift */,
+				EEE87BD9294E16A900AC6BFA /* AlbumViewController.swift */,
+				EEAE6CAB293FC73C00A9FB9C /* PlaylistViewController.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -382,8 +391,10 @@
 				EEAE6CB0293FC76800A9FB9C /* AuthManager.swift in Sources */,
 				EEE87BC52949270D00AC6BFA /* FeaturedPlaylistsResponse.swift in Sources */,
 				EEAE6CAE293FC74800A9FB9C /* SearchResultsViewController.swift in Sources */,
+				EEE87BDA294E16A900AC6BFA /* AlbumViewController.swift in Sources */,
 				EEAE6CA4293FC6FF00A9FB9C /* WelcomeViewController.swift in Sources */,
 				EEAE6CA8293FC71F00A9FB9C /* ProfileViewController.swift in Sources */,
+				EEE87BDE294E225600AC6BFA /* PlaylistDetailsResponse.swift in Sources */,
 				EEAE6C9A293FC67700A9FB9C /* TabBarViewController.swift in Sources */,
 				EEAE6CC02941387B00A9FB9C /* AuthResponse.swift in Sources */,
 				EEE87BC129465E6300AC6BFA /* NewReleasesResponse.swift in Sources */,
@@ -391,6 +402,7 @@
 				EEE87BC329465FB300AC6BFA /* APIImage.swift in Sources */,
 				EEAE6CB4293FC77D00A9FB9C /* HapticsManager.swift in Sources */,
 				EEAE6C84293CFF8200A9FB9C /* HomeViewController.swift in Sources */,
+				EEE87BDC294E1E5800AC6BFA /* AlbumDetailsResponse.swift in Sources */,
 				EEAE6CA2293FC6F500A9FB9C /* AuthViewController.swift in Sources */,
 				EEAE6C80293CFF8200A9FB9C /* AppDelegate.swift in Sources */,
 				EEAE6CBC293FC7C700A9FB9C /* UserProfile.swift in Sources */,
