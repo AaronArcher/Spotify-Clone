@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0188EEC4768159AD603EE374 /* Pods_Spotify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1809BB1D239E73570901ACC3 /* Pods_Spotify.framework */; };
+		EE408D7C29510E7100AE5CF3 /* PlaylistHeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE408D7B29510E7100AE5CF3 /* PlaylistHeaderCollectionReusableView.swift */; };
+		EE408D7E2951121D00AE5CF3 /* PlaylistHeaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE408D7D2951121D00AE5CF3 /* PlaylistHeaderViewModel.swift */; };
 		EEAE6C80293CFF8200A9FB9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAE6C7F293CFF8200A9FB9C /* AppDelegate.swift */; };
 		EEAE6C82293CFF8200A9FB9C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAE6C81293CFF8200A9FB9C /* SceneDelegate.swift */; };
 		EEAE6C84293CFF8200A9FB9C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAE6C83293CFF8200A9FB9C /* HomeViewController.swift */; };
@@ -54,6 +56,8 @@
 		08366EF9F211973D78E38E8F /* Pods-Spotify.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spotify.release.xcconfig"; path = "Target Support Files/Pods-Spotify/Pods-Spotify.release.xcconfig"; sourceTree = "<group>"; };
 		1809BB1D239E73570901ACC3 /* Pods_Spotify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Spotify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8096EEEF1F70576707BA7468 /* Pods-Spotify.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spotify.debug.xcconfig"; path = "Target Support Files/Pods-Spotify/Pods-Spotify.debug.xcconfig"; sourceTree = "<group>"; };
+		EE408D7B29510E7100AE5CF3 /* PlaylistHeaderCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistHeaderCollectionReusableView.swift; sourceTree = "<group>"; };
+		EE408D7D2951121D00AE5CF3 /* PlaylistHeaderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistHeaderViewModel.swift; sourceTree = "<group>"; };
 		EEAE6C7C293CFF8200A9FB9C /* Spotify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spotify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEAE6C7F293CFF8200A9FB9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EEAE6C81293CFF8200A9FB9C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -173,6 +177,7 @@
 			children = (
 				EEE87BCC294A7B7E00AC6BFA /* Browse */,
 				EEAE6C8A293CFF8500A9FB9C /* LaunchScreen.storyboard */,
+				EE408D7B29510E7100AE5CF3 /* PlaylistHeaderCollectionReusableView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -204,6 +209,7 @@
 				EEE87BD3294A805700AC6BFA /* NewReleasesCellViewModel.swift */,
 				EEE87BD5294BC72B00AC6BFA /* FeaturedPlaylistCellViewModel.swift */,
 				EEE87BD7294BC76A00AC6BFA /* RecommendedTrackCellViewModel.swift */,
+				EE408D7D2951121D00AE5CF3 /* PlaylistHeaderViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -402,6 +408,7 @@
 				EEE87BC329465FB300AC6BFA /* APIImage.swift in Sources */,
 				EEAE6CB4293FC77D00A9FB9C /* HapticsManager.swift in Sources */,
 				EEAE6C84293CFF8200A9FB9C /* HomeViewController.swift in Sources */,
+				EE408D7C29510E7100AE5CF3 /* PlaylistHeaderCollectionReusableView.swift in Sources */,
 				EEE87BDC294E1E5800AC6BFA /* AlbumDetailsResponse.swift in Sources */,
 				EEAE6CA2293FC6F500A9FB9C /* AuthViewController.swift in Sources */,
 				EEAE6C80293CFF8200A9FB9C /* AppDelegate.swift in Sources */,
@@ -409,6 +416,7 @@
 				EEE87BD0294A7BC400AC6BFA /* FeaturedPlaylistCollectionViewCell.swift in Sources */,
 				EEAE6CBE293FE68E00A9FB9C /* Extensions.swift in Sources */,
 				EEAE6C9E293FC6C000A9FB9C /* LibraryViewController.swift in Sources */,
+				EE408D7E2951121D00AE5CF3 /* PlaylistHeaderViewModel.swift in Sources */,
 				EEAE6CBA293FC7A900A9FB9C /* Artist.swift in Sources */,
 				EEAE6CC22946312000A9FB9C /* SettingsModels.swift in Sources */,
 				EEAE6CAC293FC73C00A9FB9C /* PlaylistViewController.swift in Sources */,
